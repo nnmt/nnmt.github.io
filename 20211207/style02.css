@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+}
+#header{
+    width: 100%;
+    padding: 30px;
+}
+#header img{
+    height: 280px;
+    float:right;
+}
+.sub{
+    height: 250px;
+    font-size: 8vw;  
+}
+#main{
+    width: 100%;
+}
+#main img{
+    border-radius: 30px;
+    width: 150px;
+    height: 150px; 
+}
+#main h2{
+    font-size: 3vw;
+    padding: 10px;
+    height: 80px;
+    color: blue;
+}
+#main p{
+    font-size: 2vw;
+    color: purple;
+    float: left;
+    padding-right: 30px;
+}
+.main-a,.main-b,.main-c{
+    width: 33.33%;
+    height: 250px;
+    float: left;
+    font-weight: bolder;
+    padding: 0 20px;
+}
+#menu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vw;
+    padding-bottom: 10px;  
+    padding: 0 20px;
+}
+#content{
+    width: 100%;
+    height: 200px;
+}
+#content h2{
+    color: blue;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+#content img{
+    border-radius: 20px;
+    height: 180px;
+    width: 150px;    
+}
+.content-1,.content-2,.content-3,.content-4,.content-5,.content-6,.content-7{
+    float: left;
+    width: 14.28%;
+    padding: 10px 20px;  
+}
+#main-content{
+    padding: 0 20px;
+}
+#main-content h2{
+    color: blue;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+li{
+    font-size: 1.5vw;
+}
+

@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#lg{
+  width: 60px;
+margin-left: 20px;}
+  body{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    border: 1px solid green;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+  }
+.cha{
+  display: flex;
+  flex-wrap: wrap;
+}
+nav{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+nav a{
+  text-decoration: none;
+  font-family: tahoma;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.trungtam{
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.cot1, .cot3{
+
+  height:300px;
+}
+.cot1-1, .cot1-2, .cot2, .cot3-1, .cot3-2{
+  border: dotted 1px blue;
+  text-align: center;
+
+    border-radius: 25px;
+
+}
+.cot1, .cot3{
+
+  height:100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+img{
+  width: 100%;
+    border-radius: 25px;
+
+}
+.cot2{
+  margin-top: 100px;
+  height: 400px;
+}
+p{
+  font-size: 35px;
+  font-weight: 30px;
+  font-family: arial;
+  color: violet;
+}
+h3{
+  color: #253d63;
+}
+.footer{
+  height: 40px;
+  color: #253d63;
+  margin-top: 20px;
+  padding-top: 8px;
+  padding-left: 30px;
+  background: lightblue;
+  border-radius: 25px;
+  border: 1px solid #d1215c;
+}
+a:hover{
+  color: #d1215c;
+}
+.cot1-1:hover, .cot1-2:hover, .cot2:hover, .cot3-1:hover, .cot3-2:hover{
+  background: #eef5cb;
+
+}
