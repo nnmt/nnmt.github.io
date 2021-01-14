@@ -3,10 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-   background-image: url(image/anh-background-dep-nhat_110341130.jpg);
-   
-}
+
 #container{
     width: 70%;
     height: 1200px;
