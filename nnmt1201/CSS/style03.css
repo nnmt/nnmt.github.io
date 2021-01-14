@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 100%;
+    margin: auto 0;
+    margin-top: 80px;
+    
+}
+table{
+    border-collapse: collapse;
+    
+}
+table td{
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.tr1{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+.lightblue{
+    background-color: lightblue;
+    font-weight: 700;
+}
+.ngaythi{
+    background-color: lightyellow;
+    color: red;
+   
+}
+hr{
+    font-size: 1.3em;
+}
+.small{
+   padding: 7px;
+}
